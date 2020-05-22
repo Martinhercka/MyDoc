@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:style="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/personicon"
+        android:title="Zobraziť profil"
+        android:background="@android:color/transparent"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signout"
+        android:icon="@mipmap/signout"
+        android:title="Signout"
+        app:showAsAction="always" />
+    <item android:title="Moje recepty"
+        android:id="@+id/prescription"/>
+    <item android:title="Žiadosť o termín"
+        android:id="@+id/termin"/>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:background="@android:color/transparent"
+        android:title="Home" />
+
+</menu>
